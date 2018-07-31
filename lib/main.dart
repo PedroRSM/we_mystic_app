@@ -51,7 +51,7 @@ class WeMysticNewsState extends State<WeMysticNewsData> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
-                    new Container(
+                    new Card(
                       child: new Row(
                           children: <Widget>[
                             new Column(
@@ -77,20 +77,20 @@ class WeMysticNewsState extends State<WeMysticNewsData> {
                                   ),
 
 
-                                  new Text(
-                                      "Text",
-                                      style: new TextStyle(fontSize:12.0,
-                                          color: const Color(0xFF000000),
-                                          fontWeight: FontWeight.w200,
-                                          fontFamily: "Roboto")
+                                  new Text(data[index]["pubDate"],
+                                      maxLines: 3,
+
+                                      style: TextStyle(
+                                        fontSize: 10.0,
+                                        color: Colors.black,)
                                   ),
 
-                                  new Text(
-                                      "Text",
-                                      style: new TextStyle(fontSize:12.0,
-                                          color: const Color(0xFF000000),
-                                          fontWeight: FontWeight.w200,
-                                          fontFamily: "Roboto")
+                                  new Text(data[index]["author"],
+                                      maxLines: 3,
+
+                                      style: TextStyle(
+                                        fontSize: 10.0,
+                                        color: Colors.black,)
                                   )
                                 ]
 
