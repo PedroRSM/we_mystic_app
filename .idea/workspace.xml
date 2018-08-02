@@ -7,9 +7,6 @@
     <list default="true" id="4748355f-918a-4e54-a545-f675c2128b06" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -263,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533031320739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feed news">
+      <created>1533225163599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533225163599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -352,7 +356,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home" />
+    <MESSAGE value="feed news" />
+    <option name="LAST_COMMIT_MESSAGE" value="feed news" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,6 +677,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
